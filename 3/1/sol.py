@@ -7,5 +7,5 @@ for line in treeLines:
     if line[i%(len(line)-1)] == '#':
         numOfTrees +=1
     i+=3
-print("valid: " + str(numOfTrees))
+print("number of trees: " + str(numOfTrees))
     
